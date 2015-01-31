@@ -1,0 +1,14 @@
+server {
+    location /files/ {
+        proxy_pass http://files:5001/;
+    }
+
+    location /ifcmetadata/ {
+        proxy_pass http://ifcmetadata:5002/;
+    }
+
+    location /e57metadata/ {
+        proxy_pass http://e57metadata:5003/;
+    }
+}
+
