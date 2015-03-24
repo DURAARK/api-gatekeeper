@@ -23,4 +23,4 @@ The repository contains the two files
 * build-service.sh
 * start-service.sh
 
-to build and start the service as a docker container.
+to build and start the service as a docker container on port 80. This can be changed in the 'start-service.sh' script.
